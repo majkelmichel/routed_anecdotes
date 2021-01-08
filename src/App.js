@@ -92,9 +92,9 @@ const CreateNew = (props) => {
 
 	const resetForm = (e) => {
 		e.preventDefault();
-		content.reset();
-		author.reset();
-		info.reset();
+		content.onReset();
+		author.onReset();
+		info.onReset();
 	};
 
 	return (
